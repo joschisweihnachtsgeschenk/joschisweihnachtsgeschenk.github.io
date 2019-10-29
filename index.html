@@ -5,12 +5,56 @@
   <title>Anmelden</title>
   <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'><link rel="stylesheet" href="./style.css">
+<script src=” sweetalert-dev.js”></script>
+<link rel=”stylesheet” href=” sweetalert.css”>
 <script type="text/javascript">
 <!--
 function chkFormular()
 {
  if(document.Formular.Code.value == "")  {
-   sweetAlert("Oops...", "Something went wrong!", "error");
+	 <script type="text/javascript">
+ 
+function JSconfirm(){
+ 
+swal({
+ 
+title: "Redirect to main page!",
+ 
+text: "Redirect me to home page?",
+ 
+type: "warning",
+ 
+showCancelButton: true,
+ 
+confirmButtonColor: "#DD6B55",
+ 
+confirmButtonText: "Yes",
+ 
+cancelButtonText: "No",
+ 
+closeOnConfirm: false,
+ 
+closeOnCancel: false },
+ 
+function(isConfirm){
+ 
+if (isConfirm)
+ 
+{
+ 
+window.location = "https://www.jquery-az.com/";
+ 
+}
+ 
+else {
+ 
+swal("You are not redirect!", "success");
+ 
+} });
+ 
+}
+ 
+</script>
    document.Formular.User.focus();
    return false;
 	 }
