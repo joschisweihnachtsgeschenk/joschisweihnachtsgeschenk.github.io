@@ -1,3 +1,7 @@
+<?php
+  require_once 'datenUeberpruefung.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en" >
 <head>
@@ -18,9 +22,15 @@
 		<p>Du hast noch keinen Code? Versuche, das richtige Los zu entdecken.</p>
 		<div class="email-box">
 <form action="versuchx.html" method="get">
-			<input type="text" class="email-box__input" placeholder="Geschenk Code" onKeyPress="KeyCode;"/>
+			<input type="text" class="email-box__input" placeholder="Geschenk Code" onKeyPress="KeyCode;" value="<?php echo !empty($code) ? $code : '' ?>"/>
 			<button type="submit" class="email-box__button"><i class="ion-paper-airplane"></i></button>
-</form>
+</form>	<?php
+	  if (!empty($errors) && count($errors) > 0 && !$success) {
+		echo implode('', $errors);
+	  } else if (!empty($success) && count($errors) === 0) {
+		echo $success;
+	  }
+	?>
 
 		</div>
 	</div>
