@@ -9,11 +9,16 @@
 <!--
 function chkFormular()
 {
- if(document.Formular.User.value == "")  {
-   alert("Bitte den Code eingeben.");
+ if(document.Formular.Code.value == "")  {
+   alert("Bitte gib den Code ein.");
    document.Formular.User.focus();
    return false;
-  }
+	 }
+if(document.Formular.Code.value != "Christmas-19") {
+   alert("Das ist leider nicht der richtige Code. Versuche es noch einmal.");
+   document.Formular.User.focus();
+   return false;
+   }
 } 
 //-->
 </script>
