@@ -12,9 +12,20 @@
 function chkFormular()
 {
  if(document.Formular.Code.value == "")  {
-	 <script type="text/javascript">
+   alert;
+   document.Formular.User.focus();
+   return false;
+	 }
+if(document.Formular.Code.value != "Christmas-19") {
+   alert("Das ist leider nicht der richtige Code. Versuche es noch einmal.");
+   document.Formular.User.focus();
+   return false;
+   }
+} 
+	
+	<script type="text/javascript">
  
-function JSconfirm(){
+function JSalert(){
  
 swal({
  
@@ -55,15 +66,6 @@ swal("You are not redirect!", "success");
 }
  
 </script>
-   document.Formular.User.focus();
-   return false;
-	 }
-if(document.Formular.Code.value != "Christmas-19") {
-   alert("Das ist leider nicht der richtige Code. Versuche es noch einmal.");
-   document.Formular.User.focus();
-   return false;
-   }
-} 
 //-->
 </script>
 </head>
