@@ -10,7 +10,7 @@
 function chkFormular()
 {
  if(document.Formular.Code.value == "")  {
-   alert("Bitte gib den Code ein.");
+   sweetAlert("Oops...", "Something went wrong!", "error");
    document.Formular.User.focus();
    return false;
 	 }
