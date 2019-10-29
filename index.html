@@ -5,7 +5,18 @@
   <title>Anmelden</title>
   <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'><link rel="stylesheet" href="./style.css">
-
+<script type="text/javascript">
+<!--
+function chkFormular()
+{
+ if(document.Formular.User.value == "")  {
+   alert("Bitte den Code eingeben.");
+   document.Formular.User.focus();
+   return false;
+  }
+} 
+//-->
+</script>
 </head>
 <body>
 <!-- partial:index.partial.html -->
@@ -17,10 +28,10 @@
 		<h1 class="modal__heading">Hier kannst du deinen Code eingeben!</h1>
 		<p>Du hast noch keinen Code? Versuche, das richtige Los zu entdecken.</p>
 		<div class="email-box">
-<form action="versuchx.html" method="get">
-			<input type="text" class="email-box__input" placeholder="Geschenk Code" onKeyPress="KeyCode;" />
+<form name="Formular" action="versuchx.html" method="get" onSubmit="return chkFormular()">
+			<input type="text" class="email-box__input" placeholder="Geschenk Code" onKeyPress="KeyCode;" name="Code">
 			<button type="submit" class="email-box__button"><i class="ion-paper-airplane"></i></button>
-</form>	<?php include("datenUeberpruefung.php"); ?>
+</form>	
 	
 
 		</div>
