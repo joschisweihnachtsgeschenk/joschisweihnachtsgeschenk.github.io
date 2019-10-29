@@ -20,16 +20,8 @@
 <form action="versuchx.html" method="get">
 			<input type="text" class="email-box__input" placeholder="Geschenk Code" onKeyPress="KeyCode;" value="<?php echo !empty($code) ? $code : '' ?>"/>
 			<button type="submit" class="email-box__button"><i class="ion-paper-airplane"></i></button>
-</form>	<?php
-  require_once 'datenUeberpruefung.php';
-?>
-	<?php
-	  if (!empty($errors) && count($errors) > 0 && !$success) {
-		echo implode('', $errors);
-	  } else if (!empty($success) && count($errors) === 0) {
-		echo $success;
-	  }
-	?>
+</form>	<?php include("datenUeberpruefung.php"); ?>
+	
 
 		</div>
 	</div>
