@@ -24,7 +24,14 @@ function chkFormular()
    return false;
 	 }
 if(document.Formular.Code.value != "Christmas-19") {
-   alert("Das ist leider nicht der richtige Code. Versuche es noch einmal.");
+   jQuery(function() {
+        swal({
+  title: "Hm...",
+  text: "Das war leider nicht der richtige Code :(",
+  icon: "error",
+  button: "Oh no!",
+});
+    });
    return false;
    }
 else {
