@@ -10,7 +10,7 @@
 ======================================*/
 
 body {
-  background-color: #38383D;
+  background-color: #45494E;
   color: #4e4e4e;
 }
 
@@ -424,7 +424,7 @@ a:hover {
 
 .navbar-b.navbar-trans .nav-link,
 .navbar-b.navbar-reduce .nav-link {
-  color: #fff;
+  color: #45494E;
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -463,23 +463,23 @@ a:hover {
 }
 
 .navbar-b.navbar-trans .nav-link:before {
-  background-color: #fff;
+  background-color: #45494E;
 }
 
 .navbar-b.navbar-trans .nav-link:hover {
-  color: #fff;
+  color: #45494E;
 }
 
 .navbar-b.navbar-trans .show > .nav-link,
 .navbar-b.navbar-trans .active > .nav-link,
 .navbar-b.navbar-trans .nav-link.show,
 .navbar-b.navbar-trans .nav-link.active {
-  color: #fff;
+  color: #45494E;
 }
 
 .navbar-b.navbar-reduce {
   transition: all .5s ease-in-out;
-  background-color: #fff;
+  background-color: #45494E;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -512,7 +512,7 @@ a:hover {
 }
 
 .navbar-b .navbar-brand {
-  color: #fff;
+  color: #45494E;
   font-size: 1.6rem;
   font-weight: 600;
 }
@@ -537,7 +537,7 @@ a:hover {
 
 .navbar-b .dropdown-menu .dropdown-item:hover {
   background-color: #be3131;
-  color: #fff;
+  color: #45494E;
   transition: all 500ms ease;
 }
 
