@@ -773,13 +773,13 @@ a:hover {
 ======================================*/
 
 .work-box {
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
 }
 
-.work-box:hover img {
+.work-box:hover {
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
 }
