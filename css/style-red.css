@@ -10,17 +10,21 @@
 ======================================*/
 
 body {
-  background-color: #353C51;
+  background-color: #38383D;
   color: #4e4e4e;
 }
 
 h1,
-h2,
-h3,
+h2 {
+  color: #4e4e4e;
+}
+h3 {
+  color: #ffffff;
+}
 h4,
 h5,
 h6 {
-  color: #ffffff;
+  color: #4e4e4e;
 }
 
 a {
@@ -154,7 +158,7 @@ a:hover {
 }
 
 .subtitle-a {
-  color: #4e4e4e;
+  color: #ffffff;
 }
 
 .line-mf {
