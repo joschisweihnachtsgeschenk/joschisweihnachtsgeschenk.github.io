@@ -424,7 +424,7 @@ a:hover {
 
 .navbar-b.navbar-trans .nav-link,
 .navbar-b.navbar-reduce .nav-link {
-  color: #45494E;
+  color: #38383D;
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -463,23 +463,23 @@ a:hover {
 }
 
 .navbar-b.navbar-trans .nav-link:before {
-  background-color: #45494E;
+  background-color: #38383D;
 }
 
 .navbar-b.navbar-trans .nav-link:hover {
-  color: #45494E;
+  color: #38383D;
 }
 
 .navbar-b.navbar-trans .show > .nav-link,
 .navbar-b.navbar-trans .active > .nav-link,
 .navbar-b.navbar-trans .nav-link.show,
 .navbar-b.navbar-trans .nav-link.active {
-  color: #45494E;
+  color: #38383D;
 }
 
 .navbar-b.navbar-reduce {
   transition: all .5s ease-in-out;
-  background-color: #45494E;
+  background-color: #38383D;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -512,7 +512,7 @@ a:hover {
 }
 
 .navbar-b .navbar-brand {
-  color: #45494E;
+  color: #38383D;
   font-size: 1.6rem;
   font-weight: 600;
 }
@@ -537,7 +537,7 @@ a:hover {
 
 .navbar-b .dropdown-menu .dropdown-item:hover {
   background-color: #be3131;
-  color: #45494E;
+  color: #38383D;
   transition: all 500ms ease;
 }
 
