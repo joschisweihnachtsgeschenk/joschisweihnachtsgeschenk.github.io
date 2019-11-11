@@ -5,12 +5,17 @@
   <title>Anmelden</title>
   <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'><link rel="stylesheet" href="./style.css">
-<script type="text/javascript">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	
+	<script type="text/javascript">
 <!--
 function chkFormular()
 {
  if(document.Formular.Code.value == "")  {
-   alert("Bitte gib den Code ein.");
+    jQuery(function() {
+        swal("Hello world!");
+    });
    return false;
 	 }
 if(document.Formular.Code.value != "Christmas-19") {
