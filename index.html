@@ -17,7 +17,11 @@ if(document.Formular.Code.value != "Christmas-19") {
    alert("Das ist leider nicht der richtige Code. Versuche es noch einmal.");
    return false;
    }
-   return true;
+else {
+document.Formular.target = 'versuchx.html';
+document.Formular.submit();
+return true;
+}
 } 
 	
 	
