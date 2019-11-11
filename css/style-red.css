@@ -407,8 +407,8 @@ a:hover {
 .navbar-b {
   transition: all .5s ease-in-out;
   background-color: transparent;
-  padding-top: 1.563rem;
-  padding-bottom: 1.563rem;
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
 }
 
 .navbar-b.navbar-reduce {
@@ -448,7 +448,7 @@ a:hover {
 
 .navbar-b.navbar-trans .nav-link:hover:before,
 .navbar-b.navbar-reduce .nav-link:hover:before {
-  width: 35px;
+  width: 20px;
 }
 
 .navbar-b.navbar-trans .show > .nav-link:before,
@@ -459,7 +459,7 @@ a:hover {
 .navbar-b.navbar-reduce .active > .nav-link:before,
 .navbar-b.navbar-reduce .nav-link.show:before,
 .navbar-b.navbar-reduce .nav-link.active:before {
-  width: 35px;
+  width: 20px;
 }
 
 .navbar-b.navbar-trans .nav-link:before {
