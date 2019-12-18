@@ -6,6 +6,7 @@ $(function() {
   $(window).on("load", function() {
     $('#preloader_1').fadeOut('slow', function() {
       $(this).remove();
+	$('#loader-wrapper').delay(350).fadeOut('slow'); 
     });
   });
 });
