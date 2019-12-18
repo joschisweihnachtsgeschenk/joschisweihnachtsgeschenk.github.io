@@ -116,5 +116,10 @@
 			}
 		}
 	});
+	
+jQuery(window).on('load', function () {
+   (function ($) {
+      prealoader ()
+  })(jQuery);
+ });
 
-})(jQuery);
