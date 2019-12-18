@@ -1,31 +1,14 @@
-(function ($) {
-	"use strict";
-	var nav = $('nav');
-  var navHeight = nav.outerHeight();
-  
-  $('.navbar-toggler').on('click', function() {
-    if( ! $('#mainNav').hasClass('navbar-reduce')) {
-      $('#mainNav').addClass('navbar-reduce');
-    }
-  })
+"use strict";
 
-  // Preloader
-  
-const preloader = document.querySelector('.preloader');
 
-const fadeEffect = setInterval(() => {
-  // if we don't set opacity 1 in CSS, then   //it will be equaled to "", that's why we   // check it
-  if (!preloader.style.opacity) {
-    preloader.style.opacity = 1;
-  }
-  if (preloader.style.opacity > 0) {
-    preloader.style.opacity -= 0.1;
-  } else {
-    clearInterval(fadeEffect);
-  }
-}, 200);
-
-window.addEventListener('load', fadeEffect);
+// Prealoder
+$(function() {
+  $(window).on("load", function() {
+    $('#preloader_1').fadeOut('slow', function() {
+      $(this).remove();
+    });
+  });
+});
 	
 
   // Back to top button
