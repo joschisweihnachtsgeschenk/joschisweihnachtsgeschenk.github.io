@@ -108,6 +108,12 @@
 			}
 		}
 	});
+
+jQuery(document).on('ready', function() {
+	(function ($) {
+	   removePlaceholder ();
+  })(jQuery);
+});
 	
 jQuery(window).on('load', function () {
    (function ($) {
