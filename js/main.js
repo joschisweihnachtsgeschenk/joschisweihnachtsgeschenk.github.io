@@ -3,13 +3,12 @@
 
 
 // Prealoder
- function prealoader () {
-   if ($('#preloader_1').length) {
-     $('#preloader_1').fadeOut(); // will first fade out the loading animation
-     $('#loader-wrapper').fadeOut('slow'); // will fade out the white DIV that covers the website.
-     $('body').css({'overflow':'visible'});
-  };
- }
+
+
+$(window).load(function(){
+    $('#preloader_1').hide();
+    $('#loader-wrapper').hide();
+});
 	
 
   // Back to top button
