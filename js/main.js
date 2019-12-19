@@ -5,9 +5,13 @@
 // Prealoder
 
 
-$(window).load(function(){
-    $('#preloader_1').hide();
-    $('#loader-wrapper').hide();
+$(document).ready(function($) {
+    var Body = $('body');
+    Body.addClass('preloader_1');
+});
+$(window).load(function() {
+    $('.loader-wrapper').fadeOut();
+    $('body').removeClass('preloader_1');
 });
 	
 
