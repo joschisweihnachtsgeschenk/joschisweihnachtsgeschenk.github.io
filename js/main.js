@@ -111,7 +111,7 @@
 
 jQuery(document).on('ready', function() {
 	(function ($) {
-	   removePlaceholder ();
+	 
   })(jQuery);
 });
 	
