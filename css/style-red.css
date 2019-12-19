@@ -415,13 +415,7 @@ animation-delay: .8s;
   overflow: hidden;
 }
 
-#preloader:before {
-  position: absolute;
-  left: 50%;
-  margin-left: -25px;
-  top: 50%;
-  transform: translateY(-50%);
-}
+
 #preloader span{
   display:block;
   bottom:0px;
